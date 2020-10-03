@@ -20,20 +20,19 @@
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="polaroid_16x9" translatesAutoresizingMaskIntoConstraints="NO" id="O9Z-YT-qOs">
                     <rect key="frame" x="0.0" y="0.0" width="1242" height="2208"/>
                 </imageView>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ORV-ek-DKh">
-                    <rect key="frame" x="207" y="275" width="826" height="1101.5"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="ORV-ek-DKh">
+                    <rect key="frame" x="206" y="274" width="828" height="1104"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="826" id="4aq-Kh-FFN"/>
+                        <constraint firstAttribute="width" constant="828" id="4aq-Kh-FFN"/>
                         <constraint firstAttribute="width" secondItem="ORV-ek-DKh" secondAttribute="height" multiplier="3:4" id="dtx-rm-pZC"/>
                     </constraints>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
                 <constraint firstItem="O9Z-YT-qOs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4fN-dq-4TU"/>
-                <constraint firstItem="ORV-ek-DKh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="207" id="6nx-pO-6N0"/>
+                <constraint firstItem="ORV-ek-DKh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="206" id="6nx-pO-6N0"/>
                 <constraint firstItem="O9Z-YT-qOs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Fcz-i0-GLx"/>
-                <constraint firstItem="ORV-ek-DKh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="275" id="gAD-vX-azM"/>
+                <constraint firstItem="ORV-ek-DKh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="274" id="gAD-vX-azM"/>
                 <constraint firstAttribute="bottom" secondItem="O9Z-YT-qOs" secondAttribute="bottom" id="m07-Ps-3Ad"/>
                 <constraint firstAttribute="trailing" secondItem="O9Z-YT-qOs" secondAttribute="trailing" id="s9o-0B-eZF"/>
             </constraints>
@@ -44,6 +43,7 @@
         </view>
     </objects>
     <resources>
+        <image name="placeholder" width="3391" height="5080"/>
         <image name="polaroid_16x9" width="1242" height="2208"/>
     </resources>
 </document>

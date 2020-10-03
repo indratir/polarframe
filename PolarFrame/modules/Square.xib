@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Square" customModule="PolarFrame" customModuleProvider="target">
+            <connections>
+                <outlet property="canvasView" destination="iN0-l3-epB" id="gdU-gp-P8l"/>
+                <outlet property="imageView" destination="lDo-cN-eDo" id="VfQ-Zi-ryN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1242" height="1242"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="polaroid_1x1" translatesAutoresizingMaskIntoConstraints="NO" id="rlj-Ut-uYX">
+                    <rect key="frame" x="0.0" y="0.0" width="1242" height="1242"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lDo-cN-eDo">
+                    <rect key="frame" x="352" y="192" width="537" height="716"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="537" id="KEz-gk-7O4"/>
+                        <constraint firstAttribute="width" secondItem="lDo-cN-eDo" secondAttribute="height" multiplier="3:4" id="NJD-cx-Vub"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="lDo-cN-eDo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="192" id="5ZZ-AN-rQe"/>
+                <constraint firstItem="rlj-Ut-uYX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="D91-B0-a4U"/>
+                <constraint firstItem="rlj-Ut-uYX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="F3h-5R-0cB"/>
+                <constraint firstAttribute="trailing" secondItem="rlj-Ut-uYX" secondAttribute="trailing" id="Rt0-4c-K1F"/>
+                <constraint firstItem="lDo-cN-eDo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="352" id="wgM-br-UW3"/>
+                <constraint firstAttribute="bottom" secondItem="rlj-Ut-uYX" secondAttribute="bottom" id="ze2-Ad-dsw"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="153.34821428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="polaroid_1x1" width="1242" height="1242"/>
+    </resources>
+</document>
